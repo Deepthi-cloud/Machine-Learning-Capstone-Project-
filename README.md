@@ -19,7 +19,7 @@ The training dateset includes 17,500 32x32 jpeg aerial images images. Each train
 
 In Keras this can be done via the keras.preprocessing.image.ImageDataGenerator class -
 
-train_datagen = ImageDataGenerator(rescale=1/.255,
+'''train_datagen = ImageDataGenerator(rescale=1/.255,
         rotation_range=40,
         width_shift_range=0.2,
         height_shift_range=0.2,
@@ -27,7 +27,8 @@ train_datagen = ImageDataGenerator(rescale=1/.255,
         zoom_range=0.2,
         horizontal_flip=True,
         fill_mode='nearest')
-        
+ '''       
+
 <h4>Transfer Learning</h4> 
 
 Keras [VGG16 application](https://keras.io/applications/#vgg16) trained on [Imagenet](http://image-net.org/explore) data has been implemented. 
