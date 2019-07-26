@@ -4,10 +4,10 @@ The objective of this project is to identify whether aerial images contain colum
 Sample images for classification:
 The training dateset includes 17,500 32x32 jpeg aerial images images. Each training image is labeled as whether or not it columnar cactus are present in the image. Test predictions are generated for submission on 4000 32x32 pixel jpeg aerial images.
 
-Cacti:
+Cacti:\n
 ![Cacti:](https://github.com/Deepthi-cloud/Machine-Learning-Capstone-Project-/blob/master/Images/000c8a36845c0208e833c79c1bffedd1.jpg)
 
-No Cacti:
+No Cacti:\n
 ![No Cacti:](https://github.com/Deepthi-cloud/Machine-Learning-Capstone-Project-/blob/master/Images/00ba3da3fe6d600703e28dece68fbb12.jpg)
 
 
