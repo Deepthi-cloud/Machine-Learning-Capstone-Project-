@@ -4,10 +4,10 @@ The objective of this project is to identify whether aerial images contain colum
 Sample images for classification:
 The training dateset includes 17,500 32x32 jpeg aerial images images. Each training image is labeled as whether or not it columnar cactus are present in the image. Test predictions are generated for submission on 4000 32x32 pixel jpeg aerial images.
 
-Cacti:
+[Cacti:](/images/has_cactus.png)
 
 
-No Cacti:
+[No Cacti:](/images/No_cactus.png)
 
 
 Data Augmentation
