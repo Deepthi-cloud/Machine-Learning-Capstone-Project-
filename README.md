@@ -34,8 +34,8 @@ Keras [VGG16 application](https://keras.io/applications/#vgg16) trained on [Imag
 
 <h4>Model Parameters:</h4>
 
-<h5>1.Evaluation</h5>
+<h5>1. Evaluation</h5>
 After 100 training epochs, the model settled at a validation loss of ~0.20 and a validation accuracy of ~0.97
 
-<h5>2.Submission Score</h5>
-Submission with this model scores an area under the ROC curve of 0.87 on the test dataset.
+<h5>2. Submission Score</h5>
+Submission with this model scores an AUC ROC curve of 0.87 on the test dataset(Kaggle Public Score).
