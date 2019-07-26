@@ -1,6 +1,6 @@
 <h2>Aerial Cactus Identification</h2>
 
-The objective of this project is to identify whether aerial images contain columnar cacti, as part of the Aerial Cactus Identification competition. This [competition](https://www.kaggle.com/c/aerial-cactus-identification) is based on resesearch previously hosted on kaggle - original [dataset](https://www.kaggle.com/c/aerial-cactus-identification/data) can be found here.
+The objective of this project is to identify whether aerial images contain columnar cacti, as part of the Aerial Cactus Identification competition. This [competition](https://www.kaggle.com/c/aerial-cactus-identification) is based on resesearch previously hosted on kaggle - original dataset can be found [here](https://www.kaggle.com/c/aerial-cactus-identification/data).
 
 <h4>Sample images for classification:</h4>
 
