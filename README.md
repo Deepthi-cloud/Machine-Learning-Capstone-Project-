@@ -19,7 +19,8 @@ The training dateset includes 17,500 32x32 jpeg aerial images images. Each train
 
 Keras' ImageDataGenerator class allows the augmentation of input image to artificially expand the total size of the input training dataset:
 
-train_datagen = ImageDataGenerator(rotation_range=40,
+train_datagen = ImageDataGenerator(rescale=1/.255,
+        rotation_range=40,
         width_shift_range=0.2,
         height_shift_range=0.2,
         shear_range=0.2,
@@ -27,17 +28,14 @@ train_datagen = ImageDataGenerator(rotation_range=40,
         horizontal_flip=True,
         fill_mode='nearest')
         
-<h4>Transfer Learning</h4> - VGG16 Base Layers
+<h4>Transfer Learning</h4> 
 
-I explored frozen VGG16 base model pretrained on the ImageNet dataset. I did not retrain these layer given the similarity of cacti to other objects in the imagenet dataset.
+Keras [VGG16 application](https://keras.io/applications/#vgg16) trained on [Imagenet](http://image-net.org/explore) data has been implemented. 
 
 <h4>Model Parameters:</h4>
 
-
-<h5>Evaluation</h5>
+<h5>1.Evaluation</h5>
 After 100 training epochs, the model settled at a validation loss of ~0.20 and a validation accuracy of ~0.97
 
-
-
-<h5>Submission Score</h5>
+<h5>2.Submission Score</h5>
 Submission with this model scores an area under the ROC curve of 0.87 on the test dataset.
