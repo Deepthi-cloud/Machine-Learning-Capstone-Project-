@@ -17,7 +17,7 @@ The training dateset includes 17,500 32x32 jpeg aerial images images. Each train
 
 <h4>Data Augmentation:</h4>
 
-Keras' ImageDataGenerator class allows the augmentation of input image to artificially expand the total size of the input training dataset:
+In Keras this can be done via the keras.preprocessing.image.ImageDataGenerator class -
 
 train_datagen = ImageDataGenerator(rescale=1/.255,
         rotation_range=40,
