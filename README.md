@@ -15,7 +15,7 @@ The training dateset includes 17,500 32x32 jpeg aerial images images. Each train
 ![No Cacti:](https://github.com/Deepthi-cloud/Machine-Learning-Capstone-Project-/blob/master/Images/00ba3da3fe6d600703e28dece68fbb12.jpg)
 
 
-<h4>Data Augmentation:</h4>
+<h4>Data Augmentation to handle biased data</h4>
 
 In Keras this can be done via the keras.preprocessing.image.ImageDataGenerator class -
 
